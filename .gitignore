@@ -1,0 +1,32 @@
+# ---------- Environment / secrets ----------
+.env
+.env.local
+.env.*.local
+*.env
+
+# ---------- Python ----------
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- Streamlit ----------
+.streamlit/secrets.toml
+
+# ---------- IDE / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+# Source PDFs — comment this out if you want the ingestion source tracked in-repo
+pdf/*.pdf
